@@ -47,7 +47,7 @@ The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](ht
   </tr>
   <tr>
     <td width="200">Open the camera connector by lifting the black bar up so it is 90º to its original position.</td>
-    <td width="200">Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.</td>
+    <td width="200">Slide the camera cable into the connector with the <i>gold fingers</i> facing down and the black bar facing up.</td>
     <td width="200">Close the camera connector.</td>
   </tr>
   <tr>
