@@ -37,11 +37,26 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 ### OV2640
 The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](https://www.amazon.com/dp/B097SZBV7N) for ~$9. I prefer the ones with a longer flat cable allowing me to position it without restricting the setup of the electronics, such as [this one](https://www.amazon.com/dp/B08XLWLGG6), but shop around.
 ### Insert Camera
-|Step 1|Step 2| Step 3|
-|:--:|:--:|:--:|
-|Open the camera connector by lifting the black bar up so it is 90º to its original position.|Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.|Close the camera connector.|
-|<img src="assets/IMG_4984.jpg" width=66%/>|<img src="assets/IMG_4985.jpg"  width=66%/>|<img src="assets/IMG_4986.jpg"  width=66%/>
 
+<table>
+<tbody width="600" valign="top">
+  <tr>
+    <th width="200">Step 1</th>
+    <th width="200">Step 2</th>
+    <th width="200">Step 3</th>
+  </tr>
+  <tr>
+    <td width="200">Open the camera connector by lifting the black bar up so it is 90º to its original position.</td>
+    <td width="200">Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.</td>
+    <td width="200">Close the camera connector.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/IMG_4984.jpg" width="200" /></td>
+    <td align="center,top"><img src="assets/IMG_4985.jpg" width="200" /></td>
+    <td align="center"><img src="assets/IMG_4986.jpg" width="200" /></td>
+  </tr>
+</tbody>
+</table>
 
 [^pins]: The Extended Core uses the same pins for the camera as the ESP32-CAM from Ai-Thinker. You can see the exact pins in the [CWV GitHub Repo](https://github.com/domino4com/CWV#camera)
 
