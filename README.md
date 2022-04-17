@@ -15,17 +15,17 @@ Instead of listing a complete example here, you will find the changes below to t
 WiFi connected
 Camera Ready! Use 'http://192.168.4.154' to connect
 ```
-<table align="right">
-  <tr><td>Before</td><td>After</td></tr>
-<tr><td><img src="assets/stopped.png" width="240"/></td><td>
-<img src="assets/started.png" width="240"/></td></tr>
-  </table>
 
 - Copy and paste the link, in this example `http://192.168.4.154` to your browser
 - You should see something like this :point_right: `Before`
 - Set an appropriate image size and click on `Start Stream`
 - And you should see what your camera sees :point_right: `After`
-
+<table>
+  <tr><td>Before</td><td>After</td></tr>
+<tr><td><img src="assets/stopped.png"/></td><td>
+<img src="assets/started.png" /></td></tr>
+  </table>
+  
 ### Code Changes
 <table>
   <tr><td>Before</td><td>After</td></tr>
