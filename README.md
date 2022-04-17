@@ -4,7 +4,7 @@ Instead of listing a complete example here, you will find the changes below to t
 ## The Arduino Example
 - [Insert a compatible camera](#camera).
 - Open the Example: File :point_right: Examples :point_right: ESP32 (Under `Examples for ESP32`...) :point_right: Camera :point_right: CameraWebServer
-- Find this line `#define CAMERA_MODEL_WROVER_KIT // Has PSRAM` and comment it out.[Screenshots](#code-changes)
+- Find this line `#define CAMERA_MODEL_WROVER_KIT // Has PSRAM` and comment it out. [See Screenshots](#code-changes)
 - Find this line `//#define CAMERA_MODEL_AI_THINKER // Has PSRAM` and uncomment it. [^pins]
 - Find this line `const char* ssid = "*********";`  and change the asterisks to your WiFi SSID.
 - Find this line `const char* password = "*********";` and change the asterisks to your WiFi password.
@@ -27,7 +27,7 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 - And you should see what your camera sees `After`
 
 ### Code Changes
-<table align="right">
+<table>
   <tr><td>Before</td><td>After</td></tr>
 <tr><td><img src="assets/before.png" /></td><td>
 <img src="assets/after.png" /></td></tr>
@@ -37,12 +37,11 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 ### OV2640
 The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](https://www.amazon.com/dp/B097SZBV7N) for ~$9. I prefer the ones with a longer flat cable allowing me to position it without restricting the setup of the electronics, such as [this one](https://www.amazon.com/dp/B08XLWLGG6), but shop around.
 ### Insert Camera
-Open the camera connector by lifting the black bar up so it is 90º to its original position
-<img src="assets/IMG_4984.jpg" width="240" border="10" align=right/>
-Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.
-<img src="assets/IMG_4985.jpg" width="240" border="10" align=right/>
-Close the camera connector 
-<img src="assets/IMG_4986.jpg" width="240" border="10" align=right/>
+|Step 1|Step 2| Step 3|
+|:--:|:--:|:--:|
+|Open the camera connector by lifting the black bar up so it is 90º to its original position.|Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.|Close the camera connector.|
+|<img src="assets/IMG_4984.jpg" width=66%/>|<img src="assets/IMG_4985.jpg"  width=66%/>|<img src="assets/IMG_4986.jpg"  width=66%/>
+
 
 [^pins]: The Extended Core uses the same pins for the camera as the ESP32-CAM from Ai-Thinker. You can see the exact pins in the [CWV GitHub Repo](https://github.com/domino4com/CWV#camera)
 
