@@ -21,5 +21,11 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 
 ### Insert the camera
 
+### Code Before
+![before](assets/before.png)
+
+### Code After
+![after](assets/after.png)
+
 [^cam]: The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](https://www.amazon.com/dp/B097SZBV7N) for ~$9. I prefer the ones with a longer flat cable allowing me to position it without restricting the setup of the electronics, such as [this one](https://www.amazon.com/dp/B08XLWLGG6), but shop around
 [^pins]: The Extended Core uses the same pins for the camera as the ESP32-CAM from Ai-Thinker. You can see the exact pins in the [CWV GitHub Repo](https://github.com/domino4com/CWV#camera)
