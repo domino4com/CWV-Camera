@@ -19,6 +19,7 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 - Set an appropriate image size and click on `start streaming`
 - And you should see what your camera sees
 
+## Illustrations
 ### Insert the camera
 
 ### Code Before
