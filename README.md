@@ -22,9 +22,9 @@ Camera Ready! Use 'http://192.168.4.154' to connect
   </table>
 
 - Copy and paste the link, in this example `http://192.168.4.154` to your browser
-- You should see something like this `Before`
+- You should see something like this :point_right: `Before`
 - Set an appropriate image size and click on `Start Stream`
-- And you should see what your camera sees `After`
+- And you should see what your camera sees :point_right: `After`
 
 ### Code Changes
 <table>
