@@ -8,6 +8,7 @@ Instead of listing a complete example here, you will find the changes below to t
 - Find this line `//#define CAMERA_MODEL_AI_THINKER // Has PSRAM` and uncomment it. [^pins]
 - Find this line `const char* ssid = "*********";`  and change the asterisks to your WiFi SSID.
 - Find this line `const char* password = "*********";` and change the asterisks to your WiFi password.
+- Upload!
 - Turn on your serial monitor and you  will see something like this
 ```
 .......
@@ -21,6 +22,14 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 
 ## Illustrations
 ### Insert the camera
+Open the camera connector by lifting the black bar up so it is 90º to its original position
+![camdoor](assets/IMG_4984.jpg)
+
+Slide the camera cable into the connector with the *gold fingers* facing down and the black bar facing up.
+![camdoor](assets/IMG_4985.jpg)
+
+Close the camera connector 
+![camdoor](assets/IMG_4986.jpg)
 
 ### Code Before
 ![before](assets/before.png)
