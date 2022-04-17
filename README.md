@@ -17,10 +17,10 @@ Camera Ready! Use 'http://192.168.4.154' to connect
 ```
 - Copy and paste the link, in this example `http://192.168.4.154` to your browser
 - You should see something like this
-![stopped](assets/stopped.jpg)
-- Set an appropriate image size and click on `start streaming`
+![stopped](assets/stopped.png)
+- Set an appropriate image size and click on `Start Stream`
 - And you should see what your camera sees
-![started](assets/started.jpg)
+![started](assets/started.png)
 
 ## Illustrations
 ### Insert the camera
