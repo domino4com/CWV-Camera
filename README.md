@@ -2,8 +2,8 @@
 Instead of listing a complete example here, you will find the changes below to the existing Camera Example in Arduino already. This way when the Camera Example is updated, this example will not be outdated. It also very specifically show what is different from the existing example.
 
 ## WARNING
-- The Camera cannot be used at the same time as the Neopixel is being used. The camera and the Neopixel share a pin. Special attention to the code to switch between the two has to incorporated.
-- The Camera cannot be used at the same time as the SD Card is being used. The camera and the SD Card's Chip Select share a pin. Special attention to the code to switch between the two has to incorporated.
+- The Camera cannot be used at the same time as the **Neopixel** is being used. The camera and the Neopixel share a pin (18). Special attention to the code to switch between the two has to be incorporated. Only from version 4.00 on the Extended Core.
+- The Camera cannot be used at the same time as the **SD Card** is being used. The camera and the SD Card's Chip Select share a pin (5). Special attention to the code to switch between the two has to be incorporated.
 
 ## The Arduino Example
 - [Insert a compatible camera](#camera).
