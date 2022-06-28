@@ -1,6 +1,10 @@
 # Using the Camera on The Extended Core (CWV)
 Instead of listing a complete example here, you will find the changes below to the existing Camera Example in Arduino already. This way when the Camera Example is updated, this example will not be outdated. It also very specifically show what is different from the existing example.
 
+## WARNING
+- The Camera cannot be used at the same time as the Neopixel is being used. The camera and the Neopixel share a pin. Special attention to the code to switch between the two has to incorporated.
+- The Camera cannot be used at the same time as the SD Card is being used. The camera and the SD Card's Chip Select share a pin. Special attention to the code to switch between the two has to incorporated.
+
 ## The Arduino Example
 - [Insert a compatible camera](#camera).
 - Open the Example: File :point_right: Examples :point_right: ESP32 (Under `Examples for ESP32`...) :point_right: Camera :point_right: CameraWebServer
