@@ -12,7 +12,8 @@ Instead of listing a complete example here, you will find the changes below to t
 - Find this line `//#define CAMERA_MODEL_AI_THINKER // Has PSRAM` and uncomment it. [^pins]
 - Find this line `const char* ssid = "*********";`  and change the asterisks to your WiFi SSID.
 - Find this line `const char* password = "*********";` and change the asterisks to your WiFi password.
-- Enable PSRAM[^psram] and Upload!
+- Choose "Huge APP..."[^board] in Partition Scheme. 
+- Enable PSRAM[^board] and Upload!
 - Turn on your serial monitor and you  will see something like this
 ```
 .......
@@ -64,5 +65,5 @@ The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](ht
 
 [^pins]: The Extended Core uses the same pins for the camera as the ESP32-CAM from Ai-Thinker. You can see the exact pins in the [CWV GitHub Repo](https://github.com/domino4com/CWV#camera)
 
-[^psram]: The extended core has 4Mb of PSRAM, but you have to enable it: Tools :point_right: PSRAM :point_right: Enabled
+[^board]: The extended core has 4Mb of PSRAM, but you have to enable it: Tools :point_right: PSRAM :point_right: Enabled
 ![PSRAM](assets/PSRAM.png)
