@@ -66,4 +66,4 @@ The most wellknown camera used here is the OV2640. Here is a pair on [Amazon](ht
 [^pins]: The Extended Core uses the same pins for the camera as the ESP32-CAM from Ai-Thinker. You can see the exact pins in the [CWV GitHub Repo](https://github.com/domino4com/CWV#camera)
 
 [^board]: The extended core has 4Mb of PSRAM, but you have to enable it: Tools :point_right: PSRAM :point_right: Enabled
-![PSRAM](assets/PSRAM.png)
+![Board Settings](assets/board-settings.png)
