@@ -3,6 +3,8 @@ Instead of listing a complete example here, you will find the changes below to t
 
 > If you haven't programed the CWV before, go to this repository first and make sure your environment is setup for [programming the CWV](https://github.com/domino4com/CWV)
 
+**Also, check out this repo from Espressif: https://github.com/espressif/esp32-camera**
+
 ## WARNING
 - The Camera cannot be used at the same time as the **Neopixel** is being used. The camera and the Neopixel share a pin (18). Special attention to the code to switch between the two has to be incorporated. Only from version 4.00 on the Extended Core.
 - The Camera cannot be used at the same time as the **SD Card** is being used. The camera and the SD Card's Chip Select share a pin (5). Special attention to the code to switch between the two has to be incorporated.
